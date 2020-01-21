@@ -1,0 +1,26 @@
+{
+    "name": "Grade Calculator",
+    "version": "1.1",
+    "manifest_version": 2,
+    "options_page": "options.html",
+    "browser_action": {
+        "default_icon": {
+          "16": "icon.png"
+        },
+        "default_popup": "popup.html",
+        "default_title": "Check to see if our code is on this page"
+      },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "alarms", 
+        "notifications"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.gradescope.com/courses/*"],
+            "css": ["styling.css"],
+            "js": ["content.js"]
+        }
+    ]
+}

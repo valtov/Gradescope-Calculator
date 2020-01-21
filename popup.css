@@ -1,0 +1,9 @@
+  .letterGrade {
+    cursor: pointer;
+  }
+  .letterGrade:hover span {
+    display: none;
+}
+.letterGrade:hover:before {
+    content: "\2716";
+}

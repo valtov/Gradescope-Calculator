@@ -1,0 +1,15 @@
+Make it so adding a categroy allows the user to name the category
+- Change N+ button to be a form submit field
+
+Dont allow words, or negative numbers in percentage field
+
+Make it so whatever the user selected as a category sticks around upon refreshes. 
+- If a user deletes a category, and that one was set before, set a default category
+
+Make it so a user can change the grade distribution (left hand side of popup window). Make it so the cutoffs the user provides make sense. Dont allow A to be 90 and A- to be 91 for example
+
+If possible, make it so instead of saving entire html for the popup table, it rebuilds the table based upon a smaller amount of information it saves
+
+Calculate overall grade based on the grade distribution (left hand side of popup window) and based upon the percentage weights of each corresponding category.
+
+Allow user to add a new temporary assignment to test. Like adding a 3rd homework when they only have 2.

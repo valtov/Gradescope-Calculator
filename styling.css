@@ -1,0 +1,24 @@
+td.letterGrade {
+    min-width: 120px;
+}
+td[role="button"] {
+    cursor: pointer;
+  }
+
+input {
+      min-height: 30px;
+  }
+
+td#selector {
+  min-width: 115px;
+  
+}
+
+#calculateGrades:hover {
+  background-color: yellow;
+
+}
+
+select {
+  max-width: 95px;
+}
